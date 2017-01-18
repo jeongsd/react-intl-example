@@ -1,0 +1,21 @@
+[
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Hello, {name}!",
+        "description": "Greeting to welcome the user to the app",
+        "end": {
+          "column": 18,
+          "line": 37
+        },
+        "file": "src/components/Home/index.js",
+        "id": "home.formattedMessage",
+        "start": {
+          "column": 16,
+          "line": 30
+        }
+      }
+    ],
+    "path": "src/components/Home/index.json"
+  }
+]

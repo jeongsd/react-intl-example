@@ -6,6 +6,9 @@ import koLocaleData from 'react-intl/locale-data/ko';
 import classnames from 'classnames';
 import styles from './App.css';
 
+const koMessages = require('../../locales/lang/ko.json');
+const enMessages = require('../../locales/lang/en.json');
+
 addLocaleData(enLocaleData);
 addLocaleData(koLocaleData);
 
@@ -28,7 +31,7 @@ class App extends React.Component {
     const { locale } = this.state;
 
     return (
-      <IntlProvider locale={locale}>
+      <IntlProvider locale={locale} messages={locale === 'en' ? enMessages : koMessages} >
         <div className={styles.root}>
           <nav className="nav has-shadow">
             <div className="container">

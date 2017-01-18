@@ -8,11 +8,11 @@ import Home from './components/Home';
 import 'style-loader!css-loader!bulma/css/bulma.css';
 
 ReactDOM.render((
-    <Router history={browserHistory} >
-      <Route path="/" component={App}>
-        <IndexRoute component={Home} />
-        <Route path="page1" components={Page1} />
-        <Route path="page2" components={Page2} />
-      </Route>
-    </Router>
+  <Router history={browserHistory} >
+    <Route path="/" component={App}>
+      <IndexRoute component={Home} />
+      <Route path="page1" components={Page1} />
+      <Route path="page2" components={Page2} />
+    </Route>
+  </Router>
 ), document.getElementById('root'));
