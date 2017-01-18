@@ -69,6 +69,69 @@ class FakeKhanPage extends React.Component {
           </div>
         </section>
 
+
+        <section className={classnames('hero', 'is-fullheight', styles.section2)}>
+          <div className="hero-body">
+            <div className="container">
+              <h1>
+                <FormattedMessage
+                  id="khanacademy.section2.title"
+                  description="section2 title"
+                  defaultMessage="Take control of your learning by working on the skills you choose at your own pace with free online courses."
+                />
+              </h1>
+            </div>
+          </div>
+        </section>
+
+        <section className={classnames('hero', 'is-fullheight', styles.section3)}>
+          <div className="hero-body">
+            <div className="container">
+              <h1>
+                <FormattedMessage
+                  id="khanacademy.section3.title"
+                  description="section3 title"
+                  defaultMessage="Sharpen your skills with over 100,000 interactive exercises."
+                />
+              </h1>
+            </div>
+          </div>
+        </section>
+
+        <section className={classnames('hero', 'is-fullheight', styles.section4)}>
+          <div className="hero-body">
+            <div className="container">
+              <h1>
+                <FormattedMessage
+                  id="khanacademy.section4.title"
+                  description="section4 title"
+                  defaultMessage="Math, science, computer programming, history, art, economics, and even more free online classes."
+                />
+              </h1>
+            </div>
+          </div>
+        </section>
+
+        <section className={classnames('hero', 'is-fullheight', styles.section5)}>
+          <div className="hero-body">
+            <div className="container">
+              <h1>
+                <FormattedMessage
+                  id="khanacademy.section5.title"
+                  description="section5 title"
+                  defaultMessage="For free. For everyone. Forever."
+                />
+              </h1>
+              <h2>
+                <FormattedMessage
+                  id="khanacademy.section5.subTitle"
+                  description="section5 sub title"
+                  defaultMessage="No ads, no subscriptions. We are a not‑for‑profit because we believe in a free, world-class education for anyone, anywhere."
+                />
+              </h2>
+            </div>
+          </div>
+        </section>
       </div>
     );
   }

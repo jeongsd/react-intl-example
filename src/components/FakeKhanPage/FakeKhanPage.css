@@ -49,3 +49,47 @@
 
   }
 }
+
+.section2 {
+  background-color: #46a8bf !important;
+  & h1 {
+    font-size: 30px;
+    color: #FFF;
+  }
+}
+
+.section3 {
+  background-color: #56d0b3 !important;
+  & h1 {
+    font-size: 30px;
+    color: #FFF;
+  }
+}
+
+.section4 {
+  background-color: #3d9a82 !important;
+  position: relative;
+  & h1 {
+    font-size: 30px;
+    color: #FFF;
+  }
+  & .backgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.section5 {
+  background-color: #2b8e7b !important;
+  & h1 {
+    font-size: 30px;
+    color: #FFF;
+  }
+  & h2 {
+    font-size: 18px;
+    color: #FFF;
+  }
+}
