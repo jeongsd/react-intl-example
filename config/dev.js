@@ -17,7 +17,7 @@ module.exports = (env) => {
       path: resolve(__dirname, '../build'),
       publicPath: '/',
     },
-    context: resolve(__dirname, './src'),
+    context: resolve(__dirname, '../src'),
 
     devtool: 'inline-source-map',
 

@@ -26,7 +26,7 @@ module.exports = (env) => ({
         loader: ExtractTextPlugin.extract({
           fallbackLoader: 'style-loader',
           loader: [
-            'css-loader?importLoader=1&modules&localIdentName=[hash:base64:5]',
+            'css-loader?importLoader=1&modules&localIdentName=[name]-[local]',
             'postcss-loader',
           ],
         }),
@@ -35,7 +35,7 @@ module.exports = (env) => ({
         use: {
           loader: 'file-loader',
           options: {
-            name: '[hash:8].[ext]',
+            name: '[name].[ext]',
           },
         },
       }, {
@@ -43,7 +43,7 @@ module.exports = (env) => ({
         use: {
           loader: 'url-loader',
           options: {
-            name: '[hash:8].[ext]',
+            name: '[name].[ext]',
             limit: 10000,
           },
         },
@@ -52,7 +52,7 @@ module.exports = (env) => ({
   },
   plugins: [
     new ExtractTextPlugin({
-      filename: '[name].[contenthash].css', disable: false, allChunks: true,
+      filename: 'main.css', disable: false, allChunks: true,
     }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production'),
