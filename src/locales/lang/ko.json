@@ -1,3 +1,8 @@
 {
-  "home.formattedMessage": "안녕하세요, {name}님!"
+  "home.formattedMessage": "안녕하세요, {name}님!",
+  "khanacademy.section1.parentsButton": "학부모는 여기로",
+  "khanacademy.section1.startButton": "지금 배우기 시작하기",
+  "khanacademy.section1.subTitle": "모두에게, 무료로, 영원히",
+  "khanacademy.section1.teachersButton": "선생님은 여기로",
+  "khanacademy.section1.title": "하나만 기억하세요"
 }

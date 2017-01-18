@@ -40,8 +40,8 @@ class Home extends React.Component {
   }
 
   render() {
-    const { locale } = this.context;
-    const currency = locale === 'en' ? 'USD' : 'KRW';
+    const { intl } = this.context;
+    const currency = intl.locale === 'en' ? 'USD' : 'KRW';
     return (
       <div className={styles.root}>
         <section className="hero is-primary">

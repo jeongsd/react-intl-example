@@ -1,3 +1,8 @@
 {
-  "home.formattedMessage": "Hello, {name}!"
+  "home.formattedMessage": "Hello, {name}!",
+  "khanacademy.section1.parentsButton": "Parents, start here",
+  "khanacademy.section1.startButton": "Start learning now",
+  "khanacademy.section1.subTitle": "For free. For everyone. Forever.",
+  "khanacademy.section1.teachersButton": "Teachers, start here",
+  "khanacademy.section1.title": "You only have to know on thing:"
 }
