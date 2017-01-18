@@ -2,71 +2,26 @@
   {
     "id": "khanacademy.section1.title",
     "description": "section1 title",
-    "defaultMessage": "You only have to know on thing:",
-    "file": "src/components/FakeKhanPage/index.js",
-    "start": {
-      "line": 34,
-      "column": 16
-    },
-    "end": {
-      "line": 38,
-      "column": 18
-    }
+    "defaultMessage": "You only have to know on thing:"
   },
   {
     "id": "khanacademy.section1.subTitle",
     "description": "section1 subTitle",
-    "defaultMessage": "For free. For everyone. Forever.",
-    "file": "src/components/FakeKhanPage/index.js",
-    "start": {
-      "line": 42,
-      "column": 16
-    },
-    "end": {
-      "line": 46,
-      "column": 18
-    }
+    "defaultMessage": "For free. For everyone. Forever."
   },
   {
     "id": "khanacademy.section1.startButton",
     "description": "section1 student button",
-    "defaultMessage": "Start learning now",
-    "file": "src/components/FakeKhanPage/index.js",
-    "start": {
-      "line": 51,
-      "column": 18
-    },
-    "end": {
-      "line": 55,
-      "column": 20
-    }
+    "defaultMessage": "Start learning now"
   },
   {
     "id": "khanacademy.section1.teachersButton",
     "description": "section1 teachers button",
-    "defaultMessage": "Teachers, start here",
-    "file": "src/components/FakeKhanPage/index.js",
-    "start": {
-      "line": 58,
-      "column": 18
-    },
-    "end": {
-      "line": 62,
-      "column": 20
-    }
+    "defaultMessage": "Teachers, start here"
   },
   {
     "id": "khanacademy.section1.parentsButton",
     "description": "section1 parents button",
-    "defaultMessage": "Parents, start here",
-    "file": "src/components/FakeKhanPage/index.js",
-    "start": {
-      "line": 65,
-      "column": 18
-    },
-    "end": {
-      "line": 69,
-      "column": 20
-    }
+    "defaultMessage": "Parents, start here"
   }
 ]

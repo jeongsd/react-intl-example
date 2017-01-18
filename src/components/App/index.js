@@ -7,7 +7,6 @@ import classnames from 'classnames';
 import styles from './App.css';
 
 const koMessages = require('../../locales/lang/ko.json');
-const enMessages = require('../../locales/lang/en.json');
 
 addLocaleData(enLocaleData);
 addLocaleData(koLocaleData);
@@ -31,7 +30,7 @@ class App extends React.Component {
     const { locale } = this.state;
 
     return (
-      <IntlProvider locale={locale} messages={locale === 'en' ? enMessages : koMessages} >
+      <IntlProvider locale={locale} messages={locale === 'ko' ? koMessages : null } >
         <div className={styles.root}>
           <nav className="nav has-shadow">
             <div className="container">

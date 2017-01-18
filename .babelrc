@@ -9,7 +9,6 @@
       "react-intl",
       {
         "messagesDir": "./src/locales/extractedMessages",
-        "extractSourceLocation": true,
         "enforceDescriptions": true
       }
     ]

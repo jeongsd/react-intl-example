@@ -18,10 +18,6 @@ class FakeKhanPage extends React.Component {
     };
   }
 
-
-// section1 http://imgur.com/bt722mg
-// en  http://imgur.com/a/TpH7v
-
   render() {
     const { intl } = this.context;
 

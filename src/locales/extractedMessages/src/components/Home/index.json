@@ -2,15 +2,6 @@
   {
     "id": "home.formattedMessage",
     "description": "Greeting to welcome the user to the app",
-    "defaultMessage": "Hello, {name}!",
-    "file": "src/components/Home/index.js",
-    "start": {
-      "line": 54,
-      "column": 16
-    },
-    "end": {
-      "line": 61,
-      "column": 18
-    }
+    "defaultMessage": "Hello, {name}!"
   }
 ]

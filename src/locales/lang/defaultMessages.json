@@ -4,72 +4,27 @@
       {
         "defaultMessage": "You only have to know on thing:",
         "description": "section1 title",
-        "end": {
-          "column": 18,
-          "line": 38
-        },
-        "file": "src/components/FakeKhanPage/index.js",
-        "id": "khanacademy.section1.title",
-        "start": {
-          "column": 16,
-          "line": 34
-        }
+        "id": "khanacademy.section1.title"
       },
       {
         "defaultMessage": "For free. For everyone. Forever.",
         "description": "section1 subTitle",
-        "end": {
-          "column": 18,
-          "line": 46
-        },
-        "file": "src/components/FakeKhanPage/index.js",
-        "id": "khanacademy.section1.subTitle",
-        "start": {
-          "column": 16,
-          "line": 42
-        }
+        "id": "khanacademy.section1.subTitle"
       },
       {
         "defaultMessage": "Start learning now",
         "description": "section1 student button",
-        "end": {
-          "column": 20,
-          "line": 55
-        },
-        "file": "src/components/FakeKhanPage/index.js",
-        "id": "khanacademy.section1.startButton",
-        "start": {
-          "column": 18,
-          "line": 51
-        }
+        "id": "khanacademy.section1.startButton"
       },
       {
         "defaultMessage": "Teachers, start here",
         "description": "section1 teachers button",
-        "end": {
-          "column": 20,
-          "line": 62
-        },
-        "file": "src/components/FakeKhanPage/index.js",
-        "id": "khanacademy.section1.teachersButton",
-        "start": {
-          "column": 18,
-          "line": 58
-        }
+        "id": "khanacademy.section1.teachersButton"
       },
       {
         "defaultMessage": "Parents, start here",
         "description": "section1 parents button",
-        "end": {
-          "column": 20,
-          "line": 69
-        },
-        "file": "src/components/FakeKhanPage/index.js",
-        "id": "khanacademy.section1.parentsButton",
-        "start": {
-          "column": 18,
-          "line": 65
-        }
+        "id": "khanacademy.section1.parentsButton"
       }
     ],
     "path": "src/components/FakeKhanPage/index.json"
@@ -79,16 +34,7 @@
       {
         "defaultMessage": "Hello, {name}!",
         "description": "Greeting to welcome the user to the app",
-        "end": {
-          "column": 18,
-          "line": 61
-        },
-        "file": "src/components/Home/index.js",
-        "id": "home.formattedMessage",
-        "start": {
-          "column": 16,
-          "line": 54
-        }
+        "id": "home.formattedMessage"
       }
     ],
     "path": "src/components/Home/index.json"

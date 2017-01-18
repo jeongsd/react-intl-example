@@ -4,6 +4,6 @@ manageTranslations({
   messagesDirectory: './src/locales/extractedMessages',
   translationsDirectory: './src/locales/lang/',
   whitelistsDirectory: './src/locales/whitelists/',
-  languages: ['en', 'ko'],
+  languages: ['ko'],
   singleMessagesFile: true,
 });
